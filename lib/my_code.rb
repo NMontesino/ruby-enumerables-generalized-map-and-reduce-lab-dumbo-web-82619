@@ -15,4 +15,5 @@ def map(array)
   array.length.times do |index|
     new_array.push(yield(array[index]))
   end
+  new_array
 end

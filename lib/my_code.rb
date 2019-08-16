@@ -1,9 +1,8 @@
 # Your Code Here
 
 def map(array)
-  i = 0
-  while i < array.length do
+  array.each{
     yield
-  end
+  }
   array
 end

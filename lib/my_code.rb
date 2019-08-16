@@ -9,7 +9,8 @@ def map(array)
 end
 
 def reduce(array, value = 0)
-  array.length.times do |i|
+  i = 0
+  while i < array.length do
     value = yield(value, array[i])
   end
   value

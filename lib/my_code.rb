@@ -15,4 +15,5 @@ def reduce(array, total = 0)
     value = yield(value, array[i])
     i += 1
   end
+  value
 end

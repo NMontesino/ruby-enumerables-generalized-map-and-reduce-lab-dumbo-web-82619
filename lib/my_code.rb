@@ -15,5 +15,8 @@ def reduce(array, value = nil)
       value = yield(value, array[i])
       i += 1
     end
+  else
+    value = array[0]
+  end
   value
 end

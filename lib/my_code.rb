@@ -8,8 +8,7 @@ def map(array)
   new_array
 end
 
-def reduce(array, total = 0)
-  value = total
+def reduce(array, value = 0)
   i = 0 
   while i < array.length do |i|
     value = yield(value, array[i])

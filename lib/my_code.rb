@@ -9,10 +9,10 @@ def map(array)
 end
 
 def reduce(array, total = 0)
-  value
+  value = total
   i = 0 
-  while i < array.length do
-    
+  while i < array.length do |i|
+    value = yield(value, array[i])
+    i += 1
   end
-  yield
 end

@@ -9,6 +9,7 @@ def map(array)
 end
 
 def reduce(array, total = 0)
-  
-  
+  array.length.times do |i|
+    total += yield(array[i])
+  end
 end

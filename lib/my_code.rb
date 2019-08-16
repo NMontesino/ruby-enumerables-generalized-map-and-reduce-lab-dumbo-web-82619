@@ -13,4 +13,5 @@ def reduce(array, total = 0)
   array.length.times do |i|
     value = yield(array[i])
   end
+  yield
 end

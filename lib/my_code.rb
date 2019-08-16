@@ -10,8 +10,9 @@ end
 
 def reduce(array, total = 0)
   value
-  array.length.times do |i|
-    value = yield(array[i])
+  i = 0 
+  while i < array.length do
+    
   end
   yield
 end

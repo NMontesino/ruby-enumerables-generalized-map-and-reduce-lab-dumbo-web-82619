@@ -14,5 +14,6 @@ def reduce(array, value = 0)
     value = yield(value, array[i])
     i += 1
   end
+  if 
   value
 end

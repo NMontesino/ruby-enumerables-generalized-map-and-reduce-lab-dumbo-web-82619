@@ -9,3 +9,7 @@
 #   end
 #   new_array
 # end
+
+def map(array)
+
+end

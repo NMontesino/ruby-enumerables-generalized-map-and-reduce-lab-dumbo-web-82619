@@ -1,8 +1,10 @@
 # Your Code Here
 
 def map(array)
-  array.each{
+  i = 0 
+  while i < array.length do
     yield
-  }
+    i += 1
+  end
   array
 end
